@@ -8,6 +8,9 @@
 import numpy as np
 import random as rand
 import os
+# from IPython.display import clear_output
+
+
 
 def clear_console():
     """Clears the console."""
@@ -58,6 +61,7 @@ if inpyval == "yes" or inpyval == "y":
 
 
 clear_console()
+# clear_output()
 
 
 
@@ -272,6 +276,7 @@ while (True):
     print("Enter Name:")
     valuee = input()
     clear_console()
+    # clear_output()
     valuee = valuee.replace(" ", "")
     bunger = secret_santa(valuee)
     print("")
