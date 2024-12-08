@@ -275,8 +275,14 @@ while (True):
     print("List of Names:", list_names)
     print("Enter Name:")
     valuee = input()
+
+
+    
     clear_console()
     # clear_output()
+
+
+    
     valuee = valuee.replace(" ", "")
     bunger = secret_santa(valuee)
     print("")
